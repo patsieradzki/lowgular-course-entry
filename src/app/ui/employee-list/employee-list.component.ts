@@ -11,7 +11,7 @@ import { EmployeeModel } from '../../model/employee.model';
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class EmployeeListComponent {
-  constructor(private _employeeService: EmployeeService) { }
-  data$: Observable<EmployeeModel[] | null> = this._employeeService.getAll();
+  constructor(private _userService: EmployeeService) { }
+  data$: Observable<EmployeeModel[] | null> = this._userService.getAll();
 }
 
