@@ -9,20 +9,22 @@ import { UserServiceModule } from './services/user.service-module';
 import { ProjectListComponentModule } from './ui/project-list-component/project-list.component-module';
 import { ProjectServiceModule } from './services/project.service-module';
 import { BrowserModule } from '@angular/platform-browser';
+import {EmployeeFormComponentModule} from "./ui/employee-form/employee-form.component-module";
 
 @NgModule({
   declarations: [AppComponent],
-  imports: [
-    BrowserModule,
-    AppRoutingModule,
-    HttpClientModule,
-    EmployeeListComponentModule,
-    EmployeesFacesComponentModule,
-    EmployeeServiceModule,
-    UserServiceModule,
-    ProjectListComponentModule,
-    ProjectServiceModule
-  ],
+    imports: [
+        BrowserModule,
+        AppRoutingModule,
+        HttpClientModule,
+        EmployeeListComponentModule,
+        EmployeesFacesComponentModule,
+        EmployeeServiceModule,
+        UserServiceModule,
+        ProjectListComponentModule,
+        ProjectServiceModule,
+        EmployeeFormComponentModule
+    ],
   providers: [],
   bootstrap: [AppComponent],
 })
