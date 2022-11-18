@@ -14,5 +14,9 @@ import {PersonModel} from "../../model/person.model";
 export class EmployeeListComponent {
   constructor(private _userService: EmployeeService) { }
   data$: Observable<PersonModel[] | null> = this._userService.getAll();
+  remove(id: string) {
+
+  }
 }
+
 

@@ -4,3 +4,4 @@ export interface PersonModel {
   readonly mail: string;
   readonly img: string;
 }
+
