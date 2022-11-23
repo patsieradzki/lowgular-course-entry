@@ -12,9 +12,14 @@ import {PersonModel} from "../../model/person.model";
   changeDetection: ChangeDetectionStrategy.OnPush,
 })
 export class EmployeeListComponent {
-  constructor(private _userService: EmployeeService) { }
   data$: Observable<PersonModel[] | null> = this._userService.getAll();
+  constructor(private _userService: EmployeeService){
+
+  }
+
   remove(id: string) {
+    this._userService.delete(id).subscribe();
+    alert('User was succesfully remove')
 
   }
 }
