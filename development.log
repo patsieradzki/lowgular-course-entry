@@ -24745,3 +24745,259 @@
 	"level": "info",
 	"message": "[API] Response ok: routing/add"
 }
+[info] [API] Request for entity/actions: {
+	"action": "entity/actions",
+	"params": {
+		"clickedPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.html",
+		"position": 129
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "6ysKEg_rJn",
+			"correlationId": "22_bC76Gjw",
+			"clickedPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for entity/actions"
+}
+[info] [CLI] Calling Query entity/actions: {
+	"funcParams": {
+		"clickedPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.html",
+		"position": 129
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query entity/actions"
+}
+[info] [API] Response ok: entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "HomeComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: entity/actions"
+}
+[info] [CLI] Called Query entity/actions: {
+	"result": {
+		"context": {
+			"parentClass": "HomeComponent",
+			"options": [
+				{
+					"type": "forms"
+				},
+				{
+					"type": "lists"
+				}
+			]
+		},
+		"children": [
+			{
+				"actionId": "ADD_TEMPLATE",
+				"label": "Display Data",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_LAYOUT",
+				"label": "Display Layout",
+				"callPath": []
+			},
+			{
+				"actionId": "ADD_COMPONENT",
+				"label": "Display Component",
+				"callPath": []
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query entity/actions"
+}
+[info] [API] Request for angular-component/list: {
+	"action": "angular-component/list",
+	"params": {
+		"componentHtmlFilePath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.html"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "6ysKEg_rJn",
+			"correlationId": "22_bC76Gjw",
+			"clickedPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for angular-component/list"
+}
+[info] [CLI] Calling Query angular-component/list: {
+	"funcParams": {
+		"componentHtmlFilePath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query angular-component/list"
+}
+[info] [CLI] Called Query angular-component/list: {
+	"result": [
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/app.component.ts",
+			"selector": "app-root",
+			"name": "AppComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+			"selector": "app-employee-form",
+			"name": "EmployeeFormComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"selector": "employee-list",
+			"name": "EmployeeListComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/employees-faces/employees-faces.component.ts",
+			"selector": "app-employees-faces",
+			"name": "EmployeesFacesComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.ts",
+			"selector": "app-home",
+			"name": "HomeComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/project-list-component/project-list.component.ts",
+			"selector": "app-project-list",
+			"name": "ProjectListComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/user-form/user-form.component.ts",
+			"selector": "app-user-form",
+			"name": "UserFormComponent"
+		}
+	],
+	"level": "info",
+	"message": "[CLI] Called Query angular-component/list"
+}
+[info] [API] Response ok: angular-component/list: {
+	"result": [
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/app.component.ts",
+			"selector": "app-root",
+			"name": "AppComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/employee-form/employee-form.component.ts",
+			"selector": "app-employee-form",
+			"name": "EmployeeFormComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/employee-list/employee-list.component.ts",
+			"selector": "employee-list",
+			"name": "EmployeeListComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/employees-faces/employees-faces.component.ts",
+			"selector": "app-employees-faces",
+			"name": "EmployeesFacesComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.ts",
+			"selector": "app-home",
+			"name": "HomeComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/project-list-component/project-list.component.ts",
+			"selector": "app-project-list",
+			"name": "ProjectListComponent"
+		},
+		{
+			"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/user-form/user-form.component.ts",
+			"selector": "app-user-form",
+			"name": "UserFormComponent"
+		}
+	],
+	"level": "info",
+	"message": "[API] Response ok: angular-component/list"
+}
+[info] [API] Request for component-modules/module-list: {
+	"action": "component-modules/module-list",
+	"params": {
+		"componentHtmlPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.html"
+	},
+	"context": {
+		"workspace": {
+			"rootPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry"
+		},
+		"userContext": {
+			"id": "6ysKEg_rJn",
+			"correlationId": "22_bC76Gjw",
+			"clickedPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.html",
+			"logEnvId": "development"
+		}
+	},
+	"level": "info",
+	"message": "[API] Request for component-modules/module-list"
+}
+[info] [CLI] Calling Query component-modules/module-list: {
+	"funcParams": {
+		"componentHtmlPath": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component.html"
+	},
+	"level": "info",
+	"message": "[CLI] Calling Query component-modules/module-list"
+}
+[info] [CLI] Called Query component-modules/module-list: {
+	"result": {
+		"name": "HomeComponent",
+		"modules": [
+			{
+				"name": "HomeComponentModule",
+				"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[CLI] Called Query component-modules/module-list"
+}
+[info] [API] Response ok: component-modules/module-list: {
+	"result": {
+		"name": "HomeComponent",
+		"modules": [
+			{
+				"name": "HomeComponentModule",
+				"path": "C:/Users/patsi/OneDrive/Pulpit/ANGULAR/angular project/lowgular-course-entry/src/app/ui/home/home.component-module.ts"
+			}
+		]
+	},
+	"level": "info",
+	"message": "[API] Response ok: component-modules/module-list"
+}

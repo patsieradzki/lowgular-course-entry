@@ -1,5 +1,33 @@
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
+  <a class="navbar-brand" href="#">Navbar</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" routerLink="/">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="employee-list">List</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" routerLink="create-employee">Form</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#">Disabled</a>
+      </li>
+    </ul>
+  </div>
+</nav>
 <router-outlet></router-outlet>
-<h1><a routerLink="/employee-list">Go to list with employees </a></h1>
-<h1><a routerLink="/create-employee">Go to form </a></h1>
+<footer class="bg-light text-center text-lg-start">
+  <!-- Copyright -->
+  <div class="text-center p-3" style="background-color: rgba(0, 0, 0, 0.2);">
+    © 2022   Copyright:
+    <a class="text-dark" href="https://github.com/patsieradzki/">patsieradzki</a>
+  </div>
+  <!-- Copyright -->
+</footer>
 
 
