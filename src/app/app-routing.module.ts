@@ -14,7 +14,7 @@ const routes: Routes = [
   { path: 'create-employee', component: EmployeeFormComponent },
   { path: 'employee-list', component: EmployeeListComponent },
   { path: '', component: HomeComponent },
-  { path: 'employee-details/:id/:name', component: EmployeeDetailsComponent }];
+  { path: 'employee-details/:id', component: EmployeeDetailsComponent }];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes), EmployeeListComponentModule, EmployeeServiceModule, EmployeeFormComponentModule, HomeComponentModule, EmployeeDetailsComponentModule],
